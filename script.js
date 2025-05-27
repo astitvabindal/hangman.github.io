@@ -355,7 +355,7 @@ let categoryArray = [
     wrongLetters.innerHTML = "";
     unhideElements("hidden", btnWrapper);
     hideElements("hidden", wrongLetters.parentNode, warningText);
-    winMessage.innerHTML = "Vanilla JavaScript Hangman Game";
+    winMessage.innerHTML = "Hangman Game";
     winMessage.style.color = "black";
     let oldP = document.getElementById("placeholderP");
     if (oldP.parentNode) {
